@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 import useVideos from '../hooks/useVideos';
+import Navbar from './Navbar';
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div className="ui segment">
-      <SearchBar onTermSubmit={search} />
+      <Navbar onTermSubmit={search} />
 
       <div className="ui segment">
         <div className="ui grid">
