@@ -1,0 +1,32 @@
+/* HEADER */
+.header {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(39, 36, 36);
+}
+
+.header a {
+  color: rgb(216, 216, 216);
+  font-weight: 500;
+}
+.headerLogo {
+  padding-right: 1rem;
+}
+
+.headerForm {
+  min-width: 50vw;
+}
+
+.headerContainer input {
+  width: 90%;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+}
+
+/* END HEADER */

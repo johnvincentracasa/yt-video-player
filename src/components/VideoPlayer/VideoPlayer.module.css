@@ -1,0 +1,45 @@
+/* START VIDEO PLAYER */
+
+.videoPlayer {
+  margin: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+.videoPlayerContainer {
+  position: relative;
+  max-width: 100%;
+  height: 0;
+  overflow: hidden;
+  background: #ececec;
+  padding-bottom: 56.25%;
+  margin-bottom: 0.5rem;
+}
+
+.videoPlayerContainer iframe {
+  position: absolute;
+  border: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.videoPlayerDetail {
+  background: rgb(233, 233, 233);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.videoPlayerDetail h2,
+.videoPlayerDetail h3 {
+  margin-bottom: 0.5rem;
+}
+
+.videoPlayerDetail p {
+  color: rgb(104, 104, 104);
+}
+
+/* END VIDEO PLAYER */
