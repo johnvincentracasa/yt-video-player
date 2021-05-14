@@ -27,4 +27,26 @@ p {
   margin: 0;
 }
 
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    'header'
+    'videoPlayer'
+    'videoPlaylist';
+}
+
+@media (min-width: 678px) {
+  .container {
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      'header header'
+      'videoPlayer videoPlaylist';
+  }
+}
+
 /* END GLOBAL STYLES */

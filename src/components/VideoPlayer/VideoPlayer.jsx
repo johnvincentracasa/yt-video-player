@@ -7,7 +7,7 @@ const VideoPlayer = ({ video: { snippet, id } }) => {
   console.log(snippet);
 
   return (
-    <section className={styles.videoPlayer}>
+    <section id="videoPlayer" className={styles.videoPlayer}>
       <div className={styles.videoPlayerContainer}>
         <iframe title="Youtube_video_playing" src={videoUrl} frameBorder="0" allowFullScreen></iframe>
       </div>
